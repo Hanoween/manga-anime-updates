@@ -1,0 +1,44 @@
+{
+    "entries": [
+        {
+            "title": "One Piece",
+            "date": "2022-09-23",
+            "chapter": 1061,
+            "img":  "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30013-oT7YguhEK1TE.jpg",
+            "type": "manga",
+            "id": 1
+        },
+        {
+            "title": "Berserk",
+            "date": "2022-10-14",
+            "chapter": 370,
+            "img": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30002-7EzO7o21jzeF.jpg",
+            "type": "manga",
+            "id": 2
+        },
+        {
+            "title": "Vinland Saga",
+            "date": "2022-09-25",
+            "chapter": 170,
+            "img": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30642-x6RpmbP5mU7q.jpg",
+            "type": "manga",
+            "id": 3
+        },
+        {
+            "title": "Chainsaw Man",
+            "date": "2022-10-22",
+            "episode": 1,
+            "img": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127230-FlochcFsyoF4.png",
+            "type": "anime",
+            "id": 4
+        },
+        {
+            "title": "Attack on Titan",
+            "date": "2022-04-01",
+            "episode": 370,
+            "type": "anime",
+            "img": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16498-C6FPmWm59CyP.jpg",
+            "id": 5
+        }
+    ]
+}
