@@ -3,7 +3,22 @@
 * {
   font-family: 'Archivo', sans-serif;
   margin: 0;
-  color:  #d70505;
+  color: #d70505;
+}
+
+html,
+body {
+  zoom: 100%;
+  background-color: white;
+  background-color: #f5dcf2;
+  margin: 0;
+}
+
+.home,
+.anime,
+.manga {
+  display: flex;
+  justify-content: center;
 }
 
 .navbar {
@@ -11,7 +26,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 70%;
+  width: 80%;
   margin: 0 auto;
   border-bottom: 0.01rem solid #313232;
 }
@@ -22,20 +37,20 @@
   font-size: 1.2rem;
 }
 
-.navbar a {
+a {
   color: #313232;
   text-decoration: none;
 }
 
-.navbar a:hover{
+.navbar a:hover {
   color: #fc3b3b;
 }
 
 .entry-list {
   display: flex;
   flex-direction: column;
-  max-width: 70%;
-  align-items: center;    
+  width: 100%;
+  align-items: center;
   height: 100%;
   margin: 2em auto;
 }
@@ -53,20 +68,121 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 30em;
   height: 9em;
   padding: 0 3em;
   border-bottom: 1px solid #f2f2f2;
 }
 
 .entry-preview:hover {
-  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
-  background-color: 
-  #d7d9d7
-  
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  filter: brightness(80%);
 }
 
 .entry-preview img {
   height: auto;
   width: 5em;
+}
+
+.error,
+.loading {
+  text-align: center;
+  margin: auto 0;
+  width: 80%;
+  padding: 1.5em 0;
+  font-size: 4rem;
+}
+
+.error img {
+  height: auto;
+  width: 45%;
+  padding-top: 1em;
+}
+
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5em 0;
+}
+
+.create {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em 2em;
+  gap: 2em;
+  font-size: 1.3rem;
+}
+
+.create form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  width: 100%;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7em;
+  font-size: 1.3rem;
+}
+
+.section label {
+  color: black;
+}
+
+input {
+  font-size: 1.3rem;
+  width: 30%;
+  padding: 0.4em 0.8em;
+  border-radius: 0.5em;
+  border-style: solid;
+  border-color: black;
+  border-width: 0.1em;
+}
+
+.images {
+  display: flex;
+  justify-content: space;
+}
+
+select {
+  width: 33%;
+  font-size: 1.4rem;
+  border-radius: 0.4em;
+  padding: 0.2em 0.5em;
+  border-style: solid;
+  border-color: black;
+  border-width: 0.08em;
+}
+
+button {
+  border-style: solid;
+  color: black;
+  border-width: 0.1em;
+  background-color: #fc3b3b;
+  border-radius: 1em;
+  font-size: 1.5rem;
+  width: 15%;
+  padding: 0.5em 1em;
+  margin: 0.5em 0 0 0;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3em;
+}
+
+#buttons button{
+  width: 10%;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
 }

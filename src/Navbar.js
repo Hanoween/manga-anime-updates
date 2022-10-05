@@ -5,10 +5,10 @@ const Navbar = () => {
         <div className="navbar">
             <h1>Nihon Tracker</h1>
             <div className="links">
-                <a href="/">Home</a>
-                <a href="/anime">Anime</a>
-                <a href="/manga">Manga</a>
-                <a href="/new">Add Entry</a>
+                <Link to="/">Home</Link>
+                <Link to="/anime">Anime</Link>
+                <Link to="/manga">Manga</Link>
+                <Link to="/add">Add Entry</Link>
             </div>
         </div>
      );
